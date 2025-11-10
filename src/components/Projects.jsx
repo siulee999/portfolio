@@ -16,13 +16,13 @@ const Projects = () => {
           {projects.map(({ id, title, imageSrc, imageAlt, description, technologies, liveDemoLink, codeLink }) => (
             <div
               key={id}
-              className="max-w-5xl flex flex-col lg:grid lg:grid-cols-[400px_1fr] lg:grid-rows-[250px] border-2 p-4 rounded-2xl border-gray-700 w-full text-white"
+              className="max-w-5xl flex flex-col lg:grid lg:grid-cols-[400px_1fr] lg:grid-rows-[280px] border-2 p-4 rounded-2xl border-gray-700 w-full text-white"
             >
               <div className="w-full border-2 border-gray-700 lg:h-full rounded-2xl py-3">
                 <img
                   alt={imageAlt}
                   src={imageSrc}
-                  className="w-full object-contain object-center"
+                  className="w-full h-full object-contain object-center"
                 />
               </div>
 
